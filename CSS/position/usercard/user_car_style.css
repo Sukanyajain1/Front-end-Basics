@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 500px;
+    min-height: 200px;
+    margin: 30px auto;
+    border: 2px solid lightgrey;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+    /* align-items:; */
+    /* border: 2px solid hotpink; */
+}
+
+.content {
+    padding: 20px;
+    /* border: 1px solid orange; */
+    /* height: auto; */
+    /* display: flex; */
+    align-items: space-evenly;
+}
+
+.header {
+    background-color: #19a3b8;
+    min-height: 50px;
+    position: relative;
+    font-weight: lighter;
+}
+
+.user-circle {
+    position: absolute;
+    width: 50px;
+    top: 20px;
+    left: 20px;
+}
+
+.map-marker, .gear {
+    width: 20px;
+    /* border: 1px solid greenyellow; */
+}
+
+.edit-profile {
+    color: #2b78e5;
+    text-decoration: underline;
+}
+
+.row {
+    padding-bottom: 10px;
+}

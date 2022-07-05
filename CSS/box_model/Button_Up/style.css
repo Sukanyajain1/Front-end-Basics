@@ -1,0 +1,35 @@
+form {
+    padding: 40px;
+    margin: 10px;
+    overflow: hidden;
+    height: auto;
+}
+.search-button {
+    /* border-width: 5px; */
+    background-color: azure;
+    color: rgb(37, 177, 163);
+    border-color:rgb(37, 177, 163);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+.plus-sign {
+    color: white;
+    background-color: rgb(37, 177, 163);
+    border-color: rgb(37, 177, 163);
+    border-radius: 50%;
+    margin: 10px;
+    padding: 5px;
+
+}
+.create-account {
+    color: whitesmoke;
+    background-color: dodgerblue;
+    border-color: black;
+    box-shadow: 5px;
+    margin: 10px;
+    padding: 5px;
+    font-size: larger;
+    font-weight: lighter;
+}

@@ -1,0 +1,44 @@
+.nav {
+    color: white;
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 0px 20px;
+    background-color: #333333;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.nav-links {
+    width: 360px;
+    min-height: 40px;
+    /* border: 1px solid greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    /* text-decoration: none; */
+}
+
+a {
+    color: grey;
+}
+.active {
+    color: white;
+}
+
+.btn {
+    color: white;
+    font-size: 16px;
+    background-color: #19a3b8;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    /* padding: 4px 1px; */
+}
+
+h1 {
+    font-weight: lighter;
+    /* font-style: bold ; */
+}
